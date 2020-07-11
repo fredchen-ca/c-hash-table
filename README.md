@@ -28,14 +28,18 @@ Tested with pre-defined string arrayi in code, test scenario covers
  * Non-existed key deletion
  * Existed key deletion
 
+## Test Result
+
+See test_result.log 
+
 ## Built With AMD64 Ubuntu 18.04 LTS GNU Tool Chain 
 
 * [GNU Tool Chain Configuration]
-  CC: gcc
-  CXX: g++
-  CFLAGS: -Werror -Wno-deprecated -O2 -g -DDEBUG
-  INCLUDES: <none>
-  LIBS: <none>
+  - CC: gcc
+  - CXX: g++
+  - CFLAGS: -Werror -Wno-deprecated -O2 -g -DDEBUG
+  - INCLUDES: <none>
+  - LIBS: <none>
 
 ## Authors
 
