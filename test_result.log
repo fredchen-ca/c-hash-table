@@ -1,0 +1,157 @@
+fred@fred-hp-dv7:~/Workspaces/Collections/amd-x860/linux-x86-64/hash_table$ ./hash
+Building hash table of buckets:50 ...
+Key:Jack appended to the bucket[48]
+Key:Oliver appended to the bucket[1]
+Key:Charlie appended to the bucket[3]
+Key:Harry appended to the bucket[25]
+Key:Jacob appended to the bucket[35]
+Key: Alfie inserted before key: Oliver at the bucket[1]
+Key:Noah appended to the bucket[14]
+Key:Oscar appended to the bucket[45]
+Key:George appended to the bucket[43]
+Key:James appended to the bucket[47]
+Key:Thomas appended to the bucket[4]
+Key:Leo appended to the bucket[18]
+Key:William appended to the bucket[26]
+Key:Joshua appended to the bucket[44]
+Key:Logan appended to the bucket[10]
+Key:Freddie appended to the bucket[46]
+Key: Archie inserted before key: Thomas at the bucket[4]
+Key: Max inserted before key: Noah at the bucket[14]
+Key:Henry appended to the bucket[33]
+Key:Ethan appended to the bucket[0]
+Key:Mason appended to the bucket[24]
+Key:Lucas appended to the bucket[30]
+Key:Riley appended to the bucket[40]
+Key:Daniel appended to the bucket[3]
+Key:Joseph appended to the bucket[3]
+Key: Jake inserted before key: Lucas at the bucket[30]
+Key:Harrison appended to the bucket[41]
+Key:Theo appended to the bucket[6]
+Key:Alexander appended to the bucket[22]
+Key:Samuel appended to the bucket[7]
+Key:Isaac appended to the bucket[19]
+Key: Dylan inserted before key: Harrison at the bucket[41]
+Key:Finley appended to the bucket[20]
+Key:Edward appended to the bucket[34]
+Key:Adam appended to the bucket[21]
+Key: Benjamin inserted before key: Joshua at the bucket[44]
+Key:Lewis appended to the bucket[44]
+Key:Harley appended to the bucket[13]
+Key:Tyler appended to the bucket[13]
+Key:Sebastian appended to the bucket[7]
+Key:Luke appended to the bucket[46]
+Key:Toby appended to the bucket[45]
+Key: Jayden inserted before key: Leo at the bucket[18]
+Key:Kian appended to the bucket[17]
+Key:Tommy appended to the bucket[43]
+Key:Alex appended to the bucket[9]
+Key:Ollie appended to the bucket[34]
+Key:Harvey appended to the bucket[23]
+Key:Matthew appended to the bucket[18]
+Key:Blake appended to the bucket[28]
+Warning: Duplicated key: Matthew discarded
+Key: Matthew found at the bucket[18] with user_data: Matthew_data, size: 13
+Warning: key: Dummy not found
+Warning: key: Dummy not existed
+Find Bucket[0] key: Ethan, user_data: Ethan_data, size= 11 bytes
+Find Bucket[1] key: Alfie, user_data: Alfie_data, size= 11 bytes
+Find Bucket[1] key: Oliver, user_data: Oliver_data, size= 12 bytes
+Find Bucket[3] key: Charlie, user_data: Charlie_data, size= 13 bytes
+Find Bucket[3] key: Daniel, user_data: Daniel_data, size= 12 bytes
+Find Bucket[3] key: Joseph, user_data: Joseph_data, size= 12 bytes
+Find Bucket[4] key: Archie, user_data: Archie_data, size= 12 bytes
+Find Bucket[4] key: Thomas, user_data: Thomas_data, size= 12 bytes
+Find Bucket[6] key: Theo, user_data: Theo_data, size= 10 bytes
+Find Bucket[7] key: Samuel, user_data: Samuel_data, size= 12 bytes
+Find Bucket[7] key: Sebastian, user_data: Sebastian_data, size= 15 bytes
+Find Bucket[9] key: Alex, user_data: Alex_data, size= 10 bytes
+Find Bucket[10] key: Logan, user_data: Logan_data, size= 11 bytes
+Find Bucket[13] key: Harley, user_data: Harley_data, size= 12 bytes
+Find Bucket[13] key: Tyler, user_data: Tyler_data, size= 11 bytes
+Find Bucket[14] key: Max, user_data: Max_data, size= 9 bytes
+Find Bucket[14] key: Noah, user_data: Noah_data, size= 10 bytes
+Find Bucket[17] key: Kian, user_data: Kian_data, size= 10 bytes
+Find Bucket[18] key: Jayden, user_data: Jayden_data, size= 12 bytes
+Find Bucket[18] key: Leo, user_data: Leo_data, size= 9 bytes
+Find Bucket[18] key: Matthew, user_data: Matthew_data, size= 13 bytes
+Find Bucket[19] key: Isaac, user_data: Isaac_data, size= 11 bytes
+Find Bucket[20] key: Finley, user_data: Finley_data, size= 12 bytes
+Find Bucket[21] key: Adam, user_data: Adam_data, size= 10 bytes
+Find Bucket[22] key: Alexander, user_data: Alexander_data, size= 15 bytes
+Find Bucket[23] key: Harvey, user_data: Harvey_data, size= 12 bytes
+Find Bucket[24] key: Mason, user_data: Mason_data, size= 11 bytes
+Find Bucket[25] key: Harry, user_data: Harry_data, size= 11 bytes
+Find Bucket[26] key: William, user_data: William_data, size= 13 bytes
+Find Bucket[28] key: Blake, user_data: Blake_data, size= 11 bytes
+Find Bucket[30] key: Jake, user_data: Jake_data, size= 10 bytes
+Find Bucket[30] key: Lucas, user_data: Lucas_data, size= 11 bytes
+Find Bucket[33] key: Henry, user_data: Henry_data, size= 11 bytes
+Find Bucket[34] key: Edward, user_data: Edward_data, size= 12 bytes
+Find Bucket[34] key: Ollie, user_data: Ollie_data, size= 11 bytes
+Find Bucket[35] key: Jacob, user_data: Jacob_data, size= 11 bytes
+Find Bucket[40] key: Riley, user_data: Riley_data, size= 11 bytes
+Find Bucket[41] key: Dylan, user_data: Dylan_data, size= 11 bytes
+Find Bucket[41] key: Harrison, user_data: Harrison_data, size= 14 bytes
+Find Bucket[43] key: George, user_data: George_data, size= 12 bytes
+Find Bucket[43] key: Tommy, user_data: Tommy_data, size= 11 bytes
+Find Bucket[44] key: Benjamin, user_data: Benjamin_data, size= 14 bytes
+Find Bucket[44] key: Joshua, user_data: Joshua_data, size= 12 bytes
+Find Bucket[44] key: Lewis, user_data: Lewis_data, size= 11 bytes
+Find Bucket[45] key: Oscar, user_data: Oscar_data, size= 11 bytes
+Find Bucket[45] key: Toby, user_data: Toby_data, size= 10 bytes
+Find Bucket[46] key: Freddie, user_data: Freddie_data, size= 13 bytes
+Find Bucket[46] key: Luke, user_data: Luke_data, size= 10 bytes
+Find Bucket[47] key: James, user_data: James_data, size= 11 bytes
+Find Bucket[48] key: Jack, user_data: Jack_data, size= 10 bytes
+End of hash keys listing, empty bucket:17
+Key: Jack got deleted
+Key: Oliver got deleted
+Key: Charlie got deleted
+Key: Harry got deleted
+Key: Jacob got deleted
+Key: Alfie got deleted
+Key: Noah got deleted
+Key: Oscar got deleted
+Key: George got deleted
+Key: James got deleted
+Key: Thomas got deleted
+Key: Leo got deleted
+Key: William got deleted
+Key: Joshua got deleted
+Key: Logan got deleted
+Key: Freddie got deleted
+Key: Archie got deleted
+Key: Max got deleted
+Key: Henry got deleted
+Key: Ethan got deleted
+Key: Mason got deleted
+Key: Lucas got deleted
+Key: Riley got deleted
+Key: Daniel got deleted
+Key: Joseph got deleted
+Key: Jake got deleted
+Key: Harrison got deleted
+Key: Theo got deleted
+Key: Alexander got deleted
+Key: Samuel got deleted
+Key: Isaac got deleted
+Key: Dylan got deleted
+Key: Finley got deleted
+Key: Edward got deleted
+Key: Adam got deleted
+Key: Benjamin got deleted
+Key: Lewis got deleted
+Key: Harley got deleted
+Key: Tyler got deleted
+Key: Sebastian got deleted
+Key: Luke got deleted
+Key: Toby got deleted
+Key: Jayden got deleted
+Key: Kian got deleted
+Key: Tommy got deleted
+Key: Alex got deleted
+Key: Ollie got deleted
+Key: Harvey got deleted
+Key: Matthew got deleted
+Key: Blake got deleted
